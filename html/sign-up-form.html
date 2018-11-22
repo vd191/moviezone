@@ -1,0 +1,166 @@
+<div class="sign-up-form">
+
+        <div class="img-form">
+            <img src="html/images/signup.jpg" alt="sign up images" class="sign-up-img">
+        </div>
+    
+        <div class="form">
+            <div class="form-content">
+                    <h3 id="font-h3">Start Your Account</h3>
+                    <h4 id="signup-mess">  </h4>
+                
+                <!-- Name section  -->
+                    <div class="name">
+                        <div class="name-label">
+                            <label for="surname">Surname:</label><br><br>
+                            <label for="other-name">Other Name:</label><br><br>
+                            <label for="occupation">Occupation: </label>
+                        </div>
+    
+                        <div class="name-field">
+                            <div class="surname">
+                                <input class="text-field-input" type="text" name="surname" placeholder="Enter Your Surname" id="id-signup-surname" required autofocus>
+                                <br>
+                            </div>
+                                
+                            <div class="othername">
+                                <input class="text-field-input" type="text" name="other-name" placeholder="Enter Your Other Name" id="id-signup-other-name" required>
+                                <br>
+                            </div>
+            
+                            <div class="occupation">
+                                <input  class="text-field-input" type="text" name="occupation" placeholder="Enter Your Occupation" id="id-signup-occupation" required>
+                                <br>
+                            </div>
+                        </div>   
+                    </div>
+                <!-- End Name section  -->
+                    
+                <!-- Contact section  --> 
+                <div class="contact">
+                    
+                    <h4 id="signup-mess"> Preferred Contact Method
+                        <div class="contact-checkbox" style="float:right;margin-right:10px;color: black">
+                            <input type="radio" name="contact-checkbox" id="id-signup-phone-contact" onclick="contactIsChecked();"><span>Phone</span> 
+                            <input type="radio" name="contact-checkbox" id="id-signup-landline-contact" onclick="contactIsChecked();"><span>Landline</span> 
+                            <input type="radio" name="contact-checkbox" id="id-signup-email-contact" onclick="contactIsChecked();"><span>Email</span> 
+                        </div>
+                    </h4>   
+                    
+                    <div class="contact-label">
+                            <label for="phone">Phone: </label><br><br>
+                            <label for="landline">Landline: </label><br><br>
+                            <label for="email">Email: </label>
+                    </div>
+    
+                    <div class="contact-field">
+                        <div class="phone-contact">
+                            <div class="phone-tooltip">
+                                <input class="text-field-input" type="text" name="phone" placeholder="Enter Your Phone Number" id="id-signup-phone" disabled>
+                                <span class="phone-tooltiptext">Format: 0[4 or 5] XXXX-XXXX, 0[4 or 5]XXXXXXXX, 0[4 or 5]XXXX-XXXX, 0[4 or 5]XXXX XXXX</span>      
+                                </div>
+                            <br>
+                        </div>
+                                
+                        <div class="landline-contact">
+                            <div class="landline-tooltip">
+                                <input class="text-field-input" type="text" name="landline" placeholder="Enter Your Landline Number" id="id-signup-landline" disabled>
+                                <span class="landline-tooltiptext">Format: 0[2,3,6,7,8,9] XXXX-XXXX, 0[2,3,6,7,8,9]XXXXXXXX, 0[2,3,6,7,8,9]XXXX-XXXX, 0[2,3,6,7,8,9]XXXX XXXX</span>      
+                            </div>
+                            <br>
+                        </div>
+                            
+                        <div class="email-contact">
+                            <input class="text-field-input" type="text" name="email" placeholder="Enter Your Email" id="id-signup-email" disabled >
+                            <br>
+                        </div>
+    
+                    </div>
+                    
+                
+                </div>          
+                <!--End Contact section  -->     
+                   
+                
+                <!-- Address section  -->
+                <div class="address">
+    
+                    <h4 id="signup-mess"> Do you want to receive our monthly magazine?
+                        <div class="address-checkbox" style="float:right;margin-right:10px;color: black">
+                           <input type="checkbox" name="magazine" id="id-signup-magazine" onchange="magazineIsChecked();"> <span>Yes</span> 
+                        </div>
+                    </h4>
+                    
+                    <div class="address-label">
+                        <label for="street">Street Address:</label><br><br>
+                        <label for="suburb">Suburb and State:</label><br><br>
+                        <label for="postcode">Postcode:</label><br>
+                    </div>
+    
+                    <div class="address-field">
+                        <div class="street">
+                            <input class="text-field-input" type="text" name="street" placeholder="Do Not Enter Here" id="id-signup-street" disabled>
+                            <br>
+                        </div>
+        
+                        <div class="suburb">  
+                            <input class="text-field-input" type="text" name="suburb" placeholder="Do Not Enter Here" id="id-signup-suburb" disabled>
+                            <br>
+                        </div>
+                        
+                        <div class="postcode">
+                            <input class="text-field-input" type="text" name="postcode" placeholder="Do Not Enter Here" id="id-signup-postcode" disabled>
+                            <br>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <!-- End Street section  -->
+    
+    
+                <!-- Password section  -->  
+                <div class="password">
+    
+                    <div class="password-label">
+                        <label for="username">Username:</label><br><br>
+                        <label for="password">Password:</label><br><br>
+                        <label for="verify-password">Verify Password:</label>
+                    </div>
+    
+                    <div class="password-field">
+                        <div class="username">
+                            <input class="text-field-input" type="text" name="username" placeholder="Enter Your Username" id="id-signup-username" required>
+                            <br>
+                        </div>
+        
+                        <div class="pass">
+                            <div class="password-tooltip">
+                                <input class="text-field-input" type="password" name="email" placeholder="Enter Your Password" id="id-signup-password" required>
+                                <span class="password-tooltiptext">Must contain a number, a capital, a lowercase, minimum 3 characters</span>
+                            </div>
+                            <br>
+                        </div>
+                            
+                        <div class="vpass">
+                            <input class="text-field-input" type="password" name="verify-password" placeholder="Verify Your Password" id="id-signup-verify-password" required>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                    
+                <h4 id="signup-mess" style="color:black;margin-bottom: 20px">
+                    By clicking submit you are agreeing to the 
+                    <a href=""> Terms and Conditions.</a>
+                </h4>
+                
+                <button style="float:left" class="submit-button" onclick="validateSignUpForm();"> SUBMIT </button>
+            
+                <h4 style="float:right; color: black" id="signup-mess"> 
+                    Have an account? <br>
+                    <a onclick='logInClick();' style="text-decoration:none">Sign In</a> 
+                </h4>
+            </div>
+            
+        </div>
+    </div>

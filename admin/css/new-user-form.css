@@ -1,0 +1,304 @@
+.new-user-form{
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+    height: 100%;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.14);
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    padding-bottom: 70px;
+}
+
+.form {
+    width: 80%;
+    margin: 0 auto;
+
+
+}
+
+.form-content {
+margin-left: 40px;
+margin-right: 40px;
+margin-top: 20px;
+}
+
+#signup-mess {
+font-weight: 250;
+color: tomato;
+font-size: 13px;
+margin-bottom: 10px;
+margin-top: 7px;
+}
+
+#font-h3{
+font-size: 32px;
+line-height: 42px;
+font-weight: 400;
+margin-bottom: 10px;
+}
+
+.form label {
+color: rgb(119, 116, 116);
+line-height: 24px;
+font-weight: 400;
+font-size: 14px;
+margin-bottom: 20px;
+}
+
+.text-field-input {
+margin-bottom: 12px;
+cursor: text;
+font-size: 14px;
+line-height: 1.5;
+background-color: #ffffff;
+width: 570px;
+height: 25px;
+border: 1px solid #ececec;
+border-radius: 4px;
+}
+.text-field-input::placeholder {
+color: #b9b9b9;
+font-size: 14px;
+text-align: center;
+}
+
+.submit-button {
+border: none;
+outline: none;
+width: 100px;
+height: 40px;
+border-radius: 4px;
+background-color: #1991eb;
+color: #fff;
+border-radius: 4px;
+padding: 8px;
+cursor: pointer;
+opacity: 0.6;
+transition: 0.3s;
+}
+
+.submit-button:hover {
+cursor: pointer;
+opacity: 1;
+}
+
+sign-up-form::after {
+clear: both;
+content: "";
+display: table;
+}
+
+/* Password Tooltip text */
+.password-tooltip {
+position: relative;
+display: inline-block;
+}
+
+.password-tooltip .password-tooltiptext {
+visibility: hidden;
+width: 270px;
+background-color: #555;
+color: #fff;
+text-align: left;
+border-radius: 6px;
+padding: 5px;
+font-size: 13px;
+
+position: absolute;
+z-index: 1;
+bottom: -90%;
+left: 50%;
+margin-left: -60px;
+
+opacity: 0;
+transition: opacity 0.3s;
+}
+
+.password-tooltip:hover .password-tooltiptext {
+visibility: visible;
+opacity: 1;
+}
+
+/* Phone Tooltip text */
+.phone-tooltip {
+position: relative;
+display: inline-block;
+}
+
+.phone-tooltip .phone-tooltiptext {
+visibility: hidden;
+width: 270px;
+background-color: #555;
+color: #fff;
+text-align: left;
+border-radius: 6px;
+padding: 5px;
+font-size: 13px;
+
+position: absolute;
+z-index: 1;
+bottom: -90%;
+left: 50%;
+margin-left: -60px;
+
+opacity: 0;
+transition: opacity 0.3s;
+}
+
+.phone-tooltip:hover .phone-tooltiptext {
+visibility: visible;
+opacity: 1;
+}
+
+/* Landline Tooltip text */
+.landline-tooltip {
+position: relative;
+display: inline-block;
+}
+
+.landline-tooltip .landline-tooltiptext {
+visibility: hidden;
+width: 270px;
+background-color: #555;
+color: #fff;
+text-align: left;
+border-radius: 6px;
+padding: 5px;
+font-size: 13px;
+
+position: absolute;
+z-index: 1;
+bottom: -90%;
+left: 50%;
+margin-left: -60px;
+
+opacity: 0;
+transition: opacity 0.3s;
+}
+
+.landline-tooltip:hover .landline-tooltiptext {
+visibility: visible;
+opacity: 1;
+}
+
+/* Name section */
+.name {
+border: solid 0.2px gray;
+padding: 10px;
+margin-bottom: 15px;
+}
+
+.name .text-field-input {
+width: 240px;
+height: 25px;
+}
+
+.name-label {
+float: left;
+}
+.name-field {
+margin-left: 10px;
+float: right;
+}
+
+.name-label label {
+margin-bottom: 50px;
+}
+
+.name::after {
+display: table;
+content: "";
+clear: both;
+}
+
+/* Password section */
+.password {
+border: solid 0.2px gray;
+padding: 10px;
+margin-bottom: 15px;
+}
+
+.password .text-field-input {
+width: 240px;
+height: 25px;
+}
+
+.password-label {
+float: left;
+}
+.password-field {
+margin-left: 10px;
+float: right;
+}
+
+.password-label label {
+margin-bottom: 50px;
+}
+
+.password::after {
+display: table;
+content: "";
+clear: both;
+}
+
+/* Contact section */
+.user-contact {
+border: solid 0.2px gray;
+padding: 10px;
+margin-bottom: 15px;
+}
+
+.user-contact .text-field-input {
+width: 240px;
+height: 25px;
+}
+
+.contact-label {
+float: left;
+}
+.contact-field {
+margin-left: 10px;
+float: right;
+}
+
+.contact-label label {
+margin-bottom: 50px;
+}
+
+.user-contact::after {
+display: table;
+content: "";
+clear: both;
+}
+
+/* Address section */
+.address {
+border: solid 0.2px gray;
+padding: 10px;
+margin-bottom: 15px;
+}
+
+.address .text-field-input {
+width: 240px;
+height: 25px;
+}
+
+.address-label {
+float: left;
+}
+.address-field {
+margin-left: 10px;
+float: right;
+}
+
+.address-label label {
+margin-bottom: 50px;
+}
+
+.address::after {
+display: table;
+content: "";
+clear: both;
+}

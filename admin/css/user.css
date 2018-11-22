@@ -1,0 +1,43 @@
+.user-container{
+    width: 100%;
+    height: 90px;
+    border-radius: 2px;
+    background-color: white;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.user-info{
+    margin: 0;
+    margin-left: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%) 
+}
+
+.occupation{
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 15%;
+    transform: translate(-15%, -50%) 
+}
+
+.contact{
+    position: absolute;
+    margin: 0;
+
+    top: 50%;
+    left: 45%;
+    transform: translate(-45%, -50%) 
+}
+
+#id-user-title{
+    color: #363F50;
+    font-size:15px;
+}
+#id-user-subtitle{
+    color: #95A0B3;
+    font-size:15px;
+}

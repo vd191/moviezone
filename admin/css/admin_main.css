@@ -1,0 +1,165 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #202024;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+}
+
+#footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #101318;
+}
+.left-menu{
+    width: 15%;
+    background-color: #202024;
+    float: left;
+    height: 100%;
+
+}
+
+.logo{
+    widows: 100%;
+    height: 30px;
+    border-bottom: solid 1px #25252A;
+    padding-left: 25px;  
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+}
+
+#page-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif    ;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+  
+}
+
+
+.btn-menu {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    width:100%;
+    margin-top: 0px;
+    margin-bottom: 10px;  
+    height: 40px;
+   text-align: left;
+    
+     
+}
+
+#menu-title{
+    color: #87898D;
+    font-size: 13px;
+    margin-left: 25px;
+    margin-bottom: 1px;
+    margin-top: 15px;
+}
+  
+.btn-menu:hover {
+    background-color: #2A66D2;
+}
+  
+.btn-menu.active {
+    background-color: #666;
+    color: white;
+}
+
+#menu-text{
+    color: white;
+    font-size: 14px;
+    margin-left: 18px;
+    
+}
+
+/* RIGHT COLUMN */
+.right-content{
+    width: 85%;
+    background-color: #F0F3F6;
+    float: left;
+    padding-bottom: 30px;
+
+}
+
+.title-content{
+    width: 100%;
+    height: 30px;
+    border-bottom: solid 1px #F3F4F8;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+#id-content{
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+  
+ 
+}
+
+.title-content{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#content-text{
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 20px;  
+    
+}
+
+#id-title-content{
+    float: left;
+}
+
+#id-delete-edit{
+    float: right;
+    margin-right: 20px;
+}
+
+.title-content{
+    clear: both;
+    display: table;
+    content: "";
+}
+
+
+.btn-delete-edit {
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #1991eb;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+  
+  .btn-delete-edit:hover {
+    cursor: pointer;
+    opacity: 1;
+  }
+
+  footer {
+    color: white;
+    background-color: #101318;
+    text-align: center;
+    height: 100px;
+    clear: left;
+    width: 100%;
+}

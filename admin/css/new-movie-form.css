@@ -1,0 +1,122 @@
+.new-movie-form{
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.14);
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+}
+
+.new-movie-form label {
+    color: rgb(119, 116, 116);
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+.id-new-movie-textfield{
+    margin-bottom: 12px;
+    cursor: text;
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    width: 100%;
+    height: 25px;
+    border: 1px solid #ececec;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+
+
+.new-movie-container .thumbnail-new-movie {
+    border:2px solid #ccc;	
+    background-image: url('../img/default.jpg');
+    background-repeat: no-repeat;	
+    background-size: cover;
+    object-fit:cover;
+    height: 300px;
+    width: 200px;
+}
+
+.new-movie{
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.actor{
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.stock-information{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.new-movie-label{
+    float: left;
+}
+
+.new-movie-field{
+    float: right;
+    width: 60%;
+}
+
+.new-movie-container{
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.new-movie-container::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.dvd-info{
+    margin-top: 10px;
+    width: 100%; 
+    margin:0 auto; 
+}
+
+.bluray-info{
+    margin-top: 10px; 
+    width: 100%; 
+}
+
+.dvd-info::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.bluray-info::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+fieldset{
+    margin-top: 20px;
+}
+
+select {
+    width: 100%;
+    margin-top: 6px;
+}
+
+
+.new-movie-btn{
+    margin-top: 20px;
+    /* float: right; */
+}
+
+.new-movie-form input{
+    margin-top: 1px;
+}
